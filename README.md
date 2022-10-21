@@ -40,10 +40,10 @@ we waked up thread 100 times every round.
 
 | round | avg       | extra info                               |
 | ----- | --------- | ---------------------------------------- |
-| 1     | 14.520000 | 40~50us count: 9, 50~60us count: 5, over 60us: 10 <br />P80: 44us, P95: 78us, max: 132us |
-| 2     | 15.285000 | 40~50us count: 9, 50~60us count: 14, over 60us: 10 <br />P80: 52us, P95: 65us, max: 112us |
-| 3     | 18.500000 | 40~50us count: 16, 50~60us count: 7, over 60us: 12 <br />P80: 48us, P95: 81us, max: 488us |
-| 4     | 13.095000 | 40~50us count: 12, 50~60us count: 6, over 60us: 6 <br />P80: 44us, P95: 66us, max: 80us |
-| 5     | 14.180000 | 40~50us count: 16, 50~60us count: 8, over 60us: 7 <br />P80: 48us, P95: 71us, max: 85us |
+| 1     | 14.520000 | 40 - 50us count: 9, 50 - 60us count: 5, over 60us: 10 <br />P80: 44us, P95: 78us, max: 132us |
+| 2     | 15.285000 | 40 - 50us count: 9, 50 - 60us count: 14, over 60us: 10 <br />P80: 52us, P95: 65us, max: 112us |
+| 3     | 18.500000 | 40 - 50us count: 16, 50 - 60us count: 7, over 60us: 12 <br />P80: 48us, P95: 81us, max: 488us |
+| 4     | 13.095000 | 40 - 50us count: 12, 50 - 60us count: 6, over 60us: 6 <br />P80: 44us, P95: 66us, max: 80us |
+| 5     | 14.180000 | 40 - 50us count: 16, 50 - 60us count: 8, over 60us: 7 <br />P80: 48us, P95: 71us, max: 85us |
 |       |           |                                          |
 
