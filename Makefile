@@ -1,4 +1,4 @@
 CXX=g++
 
 all: main.cc
-	g++  main.cc -o main -g -std=c++17
+	g++ main.cc ./thread/thread.cc -o main -g -std=c++17 -lpthread.
