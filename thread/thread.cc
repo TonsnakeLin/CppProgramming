@@ -46,10 +46,10 @@ void enqueue_msg(void)
 	long t1 = 0;
     pthread_mutex_lock(&qlock);
 	workq = false;
-    pthread_mutex_unlock(&qlock);
     pthread_cond_signal(&qready);
 	t1 = get_current_time2();	
-	g_time_queue.push_back(t1);		
+	g_time_queue.push_back(t1);	
+	pthread_mutex_unlock(&qlock);
 	printf("enqueue_msg timestamp: %ld \n", t1);
 }
 
