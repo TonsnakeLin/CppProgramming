@@ -98,3 +98,17 @@ we waked up thread 100 times every round.
 
 
 
+# GDB 调试命令
+
+## 调试符号相关
+
+```
+disassemble symbolname
+
+objdump <选项> <文件>
+```
+
+
+
+
+

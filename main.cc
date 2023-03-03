@@ -50,7 +50,7 @@ int main(int argc, char **argv) {
 		sum += delta;
 	}
 	std::sort(wake_up_time.begin(), wake_up_time.end());
-	printf("avg: %f \n", sum/count);
+	printf("avg: %f \n", 2*sum/count);
 
 	// string long_wake_up_string;
 	int over_40 =0, over_50 = 0, over_60 = 0;
