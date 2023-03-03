@@ -42,14 +42,14 @@ Linux CentOS76_VM 3.10.0-1127.el7.x86_64 #1 SMP Tue Mar 31 23:36:51 UTC 2020 x86
 
 we waked up thread 100 times every round.
 
-| round | avg       | extra info                               |
-| ----- | --------- | ---------------------------------------- |
-| 1     | 14.520000 | 40 - 50us count: 9, 50 - 60us count: 5, over 60us: 10 <br />P80: 44us, P95: 78us, max: 132us |
-| 2     | 15.285000 | 40 - 50us count: 9, 50 - 60us count: 14, over 60us: 10 <br />P80: 52us, P95: 65us, max: 112us |
-| 3     | 18.500000 | 40 - 50us count: 16, 50 - 60us count: 7, over 60us: 12 <br />P80: 48us, P95: 81us, max: 488us |
-| 4     | 13.095000 | 40 - 50us count: 12, 50 - 60us count: 6, over 60us: 6 <br />P80: 44us, P95: 66us, max: 80us |
-| 5     | 14.180000 | 40 - 50us count: 16, 50 - 60us count: 8, over 60us: 7 <br />P80: 48us, P95: 71us, max: 85us |
-|       |           |                                          |
+| round | avg       | extra info |
+| ----- | --------- | ---------- |
+| 1     | 29.140000 |            |
+| 2     | 30.570000 |            |
+| 3     | 37.000000 |            |
+| 4     | 26.185000 |            |
+| 5     | 28.360000 |            |
+|       |           |            |
 
 
 
@@ -84,17 +84,17 @@ Linux localhost.localdomain 4.18.0-305.10.2.el7.aarch64 #1 SMP Fri Jul 23 21:19:
 
 we waked up thread 100 times every round.
 
-| round | avg      | extra info                    |
-| ----- | -------- | ----------------------------- |
-| 1     | 1.765000 | P80: 4us, P95: 5us, max: 38us |
-| 2     | 1.800000 | P80: 5us, P95: 6us, max: 7us  |
-| 3     | 2.060000 | P80: 5us, P95: 6us, max: 9us  |
-| 4     | 2.205000 | P80: 5us, P95: 7us, max: 40us |
-| 5     | 1.770000 | P80: 4us, P95: 5us, max: 39us |
-| 6     | 1.800000 | P80: 4us, P95: 6us, max: 7us  |
-| 7     | 1.865000 | P80: 5us, P95: 6us, max: 6us  |
-| 8     | 2.345000 | P80: 6us, P95: 7us, max: 10us |
-|       |          |                               |
+| round | avg      | extra info |
+| ----- | -------- | ---------- |
+| 1     | 3.465000 |            |
+| 2     | 3.600000 |            |
+| 3     | 4.160000 |            |
+| 4     | 4.405000 |            |
+| 5     | 3.470000 |            |
+| 6     | 3.600000 |            |
+| 7     | 3.725000 |            |
+| 8     | 4.635000 |            |
+|       |          |            |
 
 
 
