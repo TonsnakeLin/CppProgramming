@@ -46,6 +46,7 @@ void* process_msg(void*)
 		g_time_queue.push_back(t2);
         pthread_mutex_unlock(&qlock);
     }
+	return NULL;
 }
 
 

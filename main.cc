@@ -14,8 +14,17 @@ using std::vector;
 using std::string;
 
 extern void test_wakeup();
+extern int test_assert_case1();
 
 int main(int argc, char **argv) {
-	test_wakeup();
+	// test_wakeup();
+	test_assert_case1();
+	/*
+	while(1) {
+		cout << "sleeping" << endl;
+		sleep(10);
+	}
+	*/
+	cout << "finised\n";
 	return 0;
 }
